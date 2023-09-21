@@ -1,0 +1,32 @@
+.home{
+    --bs-gutter-x: 0rem;
+}
+
+header{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    ---num:'0';
+
+}
+.home header .cart{
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: aqua;
+    padding: 10px 15px;
+    border-radius: 5px;
+    position: relative;
+}
+.home header .cart span{
+    position: absolute;
+    right: -30px;
+    top: -20px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(225, 225, 225);
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
